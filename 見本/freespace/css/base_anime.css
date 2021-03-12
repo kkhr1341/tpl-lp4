@@ -1,0 +1,143 @@
+/*--------------------------------------------------------
+アニメーション
+--------------------------------------------------------*/
+
+/* animations.cssの記述に追加 */
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+/* // animations.cssの記述に追加 // */
+
+
+@-webkit-keyframes pickup {
+  0% {
+    left: 15%;
+    -webkit-transform: scale(1);
+       -moz-transform: scale(1);
+        -ms-transform: scale(1);
+         -o-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    left: 15%;
+    -webkit-transform: scale(1.1);
+       -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+         -o-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    left: 15%;
+    -webkit-transform: scale(1);
+       -moz-transform: scale(1);
+        -ms-transform: scale(1);
+         -o-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes pickup {
+  0% {
+    left: 15%;
+    -webkit-transform: scale(1);
+       -moz-transform: scale(1);
+        -ms-transform: scale(1);
+         -o-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    left: 15%;
+    -webkit-transform: scale(1.1);
+       -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+         -o-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    left: 15%;
+    -webkit-transform: scale(1);
+       -moz-transform: scale(1);
+        -ms-transform: scale(1);
+         -o-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@-webkit-keyframes pickup2 {
+  0% {
+    -webkit-transform: scale(1);
+       -moz-transform: scale(1);
+        -ms-transform: scale(1);
+         -o-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.05);
+       -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+         -o-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  100% {
+    -webkit-transform: scale(1);
+       -moz-transform: scale(1);
+        -ms-transform: scale(1);
+         -o-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes pickup2 {
+  0% {
+    -webkit-transform: scale(1);
+       -moz-transform: scale(1);
+        -ms-transform: scale(1);
+         -o-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.05);
+       -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+         -o-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  100% {
+    -webkit-transform: scale(1);
+       -moz-transform: scale(1);
+        -ms-transform: scale(1);
+         -o-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+
+.pickup{
+  display: block;
+   -webkit-animation-name: pickup;
+  animation-name: pickup;
+   -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+   -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+   -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+   -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+.pickup2{
+  display: block;
+   -webkit-animation-name: pickup2;
+  animation-name: pickup2;
+   -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+   -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+   -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+   -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+
+/*--------------------------------------------------------
+//アニメーション
+--------------------------------------------------------*/

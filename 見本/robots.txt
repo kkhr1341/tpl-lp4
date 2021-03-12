@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /agcy/
+Disallow: /media/
+Allow: /

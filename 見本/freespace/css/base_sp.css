@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+/* ■■ width900 ■■ */
+@media screen and (max-width: 900px) {
+
+  /*--------------------------------------------------------
+  定数
+  --------------------------------------------------------*/
+  .visible900{display: block;margin:auto;}
+  .hidden900{display: none;}
+
+  /*--------------------------------------------------------
+  サイト毎に変化のある定数
+  --------------------------------------------------------*/
+  .contents {width: 100%;}
+  .img_center {margin-left:0px;}
+  img {width:100%;max-width: 100%;height: auto;}
+
+  .contents_privacyHead {
+    width: 74%;
+    border: 2px solid #000;
+    font-size: 2.3vw;
+    
+  }
+  .contents_privacy {
+    width: 90%;
+    border: 2px solid #000;
+    font-size: 2.5vw;
+    
+  }
+
+  /*--------------------------------------------------------
+  フッター
+  --------------------------------------------------------*/
+  .copyright,
+  .copyright a{
+    font-size: 2.5vw;
+  }
+  .pp{
+    font-size: 3.5vw!important;
+  }
+  .footer_img{
+    width:26%
+  }
+  /*--------------------------------------------------------
+  ↓↓↓ 各種レイアウト ↓↓↓
+  --------------------------------------------------------*/
+  /* --画像位置設定-- */
+  .zfg._05_01{
+    width: 55%;
+  }
+  .zfg._05_03{
+    width: 55%;
+  }
+  .zfg._08_tap{
+    width: 52.5%;
+  }
+  .zfg._08_tuika{
+    width: 47%;
+  }
+
+  .img_privacy{
+    width:9vw;
+  }
+  /* --プラポリ-- */
+  .img_purapori_title{
+    width: 96%;
+  }
+  .privacy_subtitle{
+    font-size: 3vw;
+  }
+  .img_back{
+    width: 56%;
+  }
+  /*--------------------------------------------------------
+  ↑↑↑ 各種レイアウト ↑↑↑
+  --------------------------------------------------------*/
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .visible600{display: block;margin:auto;}
+  .hidden600{display: none;}
+
+  body{font-size:1.2rem;}/*todo 要調査*/
+  /*--------------------------------------------------------
+  サイト毎に変化のある定数
+  --------------------------------------------------------*/
+  .contents_privacyHead {
+    width: 90%;
+    border: 2px solid #2D1015;
+    padding: 10px 5px;
+    font-size: 2.9vw;
+    text-align: center;
+  }
+  .contents_privacy {
+    width: 90%;
+    padding: 10px 10px;
+    font-size: 4vw;
+  }
+
+
+  /*--------------------------------------------------------
+  ↓↓↓ 各種レイアウト ↓↓↓
+  --------------------------------------------------------*/
+  /* --プラポリ-- */
+    .privacy_subtitle{
+      font-size: 5vw;
+    }
+    .img_privacy{
+      width:12vw;
+    }
+
+
+  /*--------------------------------------------------------
+  ↑↑↑ 各種レイアウト ↑↑↑
+  --------------------------------------------------------*/
+  /*--------------------------------------------------------
+  ↓↓↓ フォーム部分 ↓↓↓
+  --------------------------------------------------------*/
+  form {
+    /* font-size: 1.2rem; */
+    line-height:1.5;
+  }
+  /********
+  チェックボックス
+  ********/
+  .checkbox-parts{
+    padding-left: 35px;
+    /* font-size: 1.2rem; */
+    line-height: 1.7;
+  }
+  .checkbox-parts::before{
+    top: -2px;
+    width: 20px;
+    height: 20px;
+  }
+  .checkbox-input:checked + .checkbox-parts::after{
+    top: -9px;
+    left: 7px;
+    width: 11.2px;
+    height: 22.4px;
+    border-bottom: 4px solid red;
+    border-right: 4px solid red;
+  }
+  /*--------------------------------------------------------
+  ↑↑↑ フォーム部分 ↑↑↑
+  --------------------------------------------------------*/
+}
+
+@media screen and (max-width: 500px) {
+  .visible500{display: block;margin:auto;}
+  .hidden500{display: none;}
+
+
+}
+
+@media screen and (max-width: 400px) {
+  .visible400{display: block;margin:auto;}
+  .hidden400{display: none;}
+
+
+}
+
+@media screen and (max-width: 320px) {
+  .visible320{display: block;margin:auto;}
+  .hidden320{display: none;}
+
+
+}
+
+/* 319px以下の場合　これ以上小さくしたくない場合は横スクロール対応 */
+@media screen and (max-width: 319px) {
+  body { overflow-x:visible; }
+  .contents {     min-width:320px; }
+  .contents1800 { min-width:320px; }
+  header {        min-width:320px; }
+  footer {        min-width:320px; }
+}
